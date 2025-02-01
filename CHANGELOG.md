@@ -1,4 +1,28 @@
 # Release Notes
+## Version 0.8.2 - 23/01/2025
+### New Features
+- Customized database view icons
+- Support for uploading images as custom icons
+- Enabled selecting multiple AI messages to save into a document
+- Added the ability to scale the app's display size on mobile
+- Support for pasting image links without file extensions
+### Bug Fixes
+- Fixed an issue where pasting tables from other apps wasn't working
+- Fixed homepage URL issues in Settings
+- Fixed an issue where the 'Cancel' button was not visible on the Shortcuts page
+
+## Version 0.8.1 - 14/01/2025
+### New Features
+- AI Chat Layout Options: Customize how AI responses appear with new layouts—List, Table, Image with Text, and Media Only
+- DALL-E Integration: Generate stunning AI images from text prompts, now available in AI Chat
+- Improved Desktop Search: Find what you need faster using keywords or by asking questions in natural language
+- Self-Hosting: Configure web server URLs directly in Settings to enable features like Publish, Copy Link to Share, Custom URLs, and more
+- Sidebar Enhancement: Drag to reorder your favorited pages in the Sidebar
+- Mobile Table Resizing: Adjust column widths in Simple Tables by long pressing the column borders on mobile
+### Bug Fixes
+- Resolved an icon rendering issue in callout blocks, tab bars, and search results
+- Enhanced image reliability: Retry functionality ensures images load successfully if the first attempt fails
+
 ## Version 0.8.0 - 06/01/2025
 ### Bug Fixes
 - Fixed error displaying in the page style menu

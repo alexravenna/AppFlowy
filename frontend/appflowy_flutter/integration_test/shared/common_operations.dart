@@ -629,7 +629,7 @@ extension CommonOperations on WidgetTester {
   // update the page icon in the sidebar
   Future<void> updatePageIconInSidebarByName({
     required String name,
-    required String parentName,
+    String? parentName,
     required ViewLayoutPB layout,
     required EmojiIconData icon,
   }) async {
@@ -671,6 +671,8 @@ extension CommonOperations on WidgetTester {
       await tapEmoji(icon.emoji);
     } else if (icon.type == FlowyIconType.icon) {
       await tapIcon(icon);
+    } else if (icon.type == FlowyIconType.custom) {
+      await pickImage(icon);
     }
     await pumpAndSettle();
   }

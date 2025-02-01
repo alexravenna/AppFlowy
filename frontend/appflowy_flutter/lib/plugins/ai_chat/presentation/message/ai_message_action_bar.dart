@@ -1,6 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
 
+import 'package:appflowy/ai/widgets/prompt_input/layout_define.dart';
+import 'package:appflowy/ai/widgets/prompt_input/predefined_format_buttons.dart';
+import 'package:appflowy/ai/widgets/prompt_input/select_sources_menu.dart';
 import 'package:appflowy/generated/flowy_svgs.g.dart';
 import 'package:appflowy/generated/locale_keys.g.dart';
 import 'package:appflowy/plugins/ai_chat/application/chat_ai_message_bloc.dart';
@@ -10,6 +13,7 @@ import 'package:appflowy/plugins/ai_chat/application/chat_select_sources_cubit.d
 import 'package:appflowy/plugins/document/application/prelude.dart';
 import 'package:appflowy/plugins/document/presentation/editor_plugins/copy_and_paste/clipboard_service.dart';
 import 'package:appflowy/shared/markdown_to_document.dart';
+import 'package:appflowy/shared/patterns/common_patterns.dart';
 import 'package:appflowy/startup/startup.dart';
 import 'package:appflowy/util/theme_extension.dart';
 import 'package:appflowy/workspace/application/sidebar/space/space_bloc.dart';
@@ -30,8 +34,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_chat_core/flutter_chat_core.dart';
 
-import '../chat_input/predefined_format_buttons.dart';
-import '../chat_input/select_sources_menu.dart';
 import '../layout_define.dart';
 import 'message_util.dart';
 
@@ -64,16 +66,15 @@ class _AIMessageActionBarState extends State<AIMessageActionBar> {
 
     final child = SeparatedRow(
       mainAxisSize: MainAxisSize.min,
-      separatorBuilder: () =>
-          const HSpace(DesktopAIConvoSizes.actionBarIconSpacing),
+      separatorBuilder: () => const HSpace(8.0),
       children: _buildChildren(),
     );
 
     return widget.showDecoration
         ? Container(
-            padding: const EdgeInsets.all(2.0),
+            padding: DesktopAIChatSizes.messageHoverActionBarPadding,
             decoration: BoxDecoration(
-              borderRadius: DesktopAIConvoSizes.hoverActionBarRadius,
+              borderRadius: DesktopAIChatSizes.messageHoverActionBarRadius,
               border: Border.all(
                 color: isLightMode
                     ? const Color(0x1F1F2329)
@@ -153,21 +154,25 @@ class CopyButton extends StatelessWidget {
     return FlowyTooltip(
       message: LocaleKeys.settings_menu_clickToCopy.tr(),
       child: FlowyIconButton(
-        width: DesktopAIConvoSizes.actionBarIconSize,
+        width: DesktopAIChatSizes.messageActionBarIconSize,
         hoverColor: AFThemeExtension.of(context).lightGreyHover,
         radius: isInHoverBar
-            ? DesktopAIConvoSizes.hoverActionBarIconRadius
-            : DesktopAIConvoSizes.actionBarIconRadius,
+            ? DesktopAIChatSizes.messageHoverActionBarIconRadius
+            : DesktopAIChatSizes.messageActionBarIconRadius,
         icon: FlowySvg(
           FlowySvgs.copy_s,
           color: Theme.of(context).hintColor,
           size: const Size.square(16),
         ),
         onPressed: () async {
-          final document = customMarkdownToDocument(textMessage.text);
+          final messageText = textMessage.text.trim();
+          final document = customMarkdownToDocument(
+            messageText,
+            tableWidth: 250.0,
+          );
           await getIt<ClipboardService>().setData(
             ClipboardServiceData(
-              plainText: textMessage.text,
+              plainText: _stripMarkdownIfNecessary(messageText),
               inAppJson: jsonEncode(document.toJson()),
             ),
           );
@@ -180,6 +185,17 @@ class CopyButton extends StatelessWidget {
         },
       ),
     );
+  }
+
+  String _stripMarkdownIfNecessary(String plainText) {
+    // match and capture inner url as group
+    final matches = singleLineMarkdownImageRegex.allMatches(plainText);
+
+    if (matches.length != 1) {
+      return plainText;
+    }
+
+    return matches.first[1] ?? plainText;
   }
 }
 
@@ -198,11 +214,11 @@ class RegenerateButton extends StatelessWidget {
     return FlowyTooltip(
       message: LocaleKeys.chat_regenerate.tr(),
       child: FlowyIconButton(
-        width: DesktopAIConvoSizes.actionBarIconSize,
+        width: DesktopAIChatSizes.messageActionBarIconSize,
         hoverColor: AFThemeExtension.of(context).lightGreyHover,
         radius: isInHoverBar
-            ? DesktopAIConvoSizes.hoverActionBarIconRadius
-            : DesktopAIConvoSizes.actionBarIconRadius,
+            ? DesktopAIChatSizes.messageHoverActionBarIconRadius
+            : DesktopAIChatSizes.messageActionBarIconRadius,
         icon: FlowySvg(
           FlowySvgs.ai_undo_s,
           color: Theme.of(context).hintColor,
@@ -258,11 +274,11 @@ class _ChangeFormatButtonState extends State<ChangeFormatButton> {
       message: LocaleKeys.chat_changeFormat_actionButton.tr(),
       child: FlowyIconButton(
         width: 32.0,
-        height: DesktopAIConvoSizes.actionBarIconSize,
+        height: DesktopAIChatSizes.messageActionBarIconSize,
         hoverColor: AFThemeExtension.of(context).lightGreyHover,
         radius: widget.isInHoverBar
-            ? DesktopAIConvoSizes.hoverActionBarIconRadius
-            : DesktopAIConvoSizes.actionBarIconRadius,
+            ? DesktopAIChatSizes.messageHoverActionBarIconRadius
+            : DesktopAIChatSizes.messageActionBarIconRadius,
         icon: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -301,7 +317,7 @@ class _ChangeFormatPopoverContent extends StatefulWidget {
 
 class _ChangeFormatPopoverContentState
     extends State<_ChangeFormatPopoverContent> {
-  PredefinedFormat predefinedFormat = const PredefinedFormat.auto();
+  PredefinedFormat? predefinedFormat;
 
   @override
   Widget build(BuildContext context) {
@@ -309,7 +325,7 @@ class _ChangeFormatPopoverContentState
     return Container(
       padding: const EdgeInsets.all(2.0),
       decoration: BoxDecoration(
-        borderRadius: DesktopAIConvoSizes.hoverActionBarRadius,
+        borderRadius: DesktopAIChatSizes.messageHoverActionBarRadius,
         border: Border.all(
           color: isLightMode
               ? const Color(0x1F1F2329)
@@ -348,8 +364,6 @@ class _ChangeFormatPopoverContentState
         children: [
           ChangeFormatBar(
             spacing: 2.0,
-            iconSize: 16.0,
-            buttonSize: DesktopAIPromptSizes.predefinedFormatButtonHeight,
             predefinedFormat: predefinedFormat,
             onSelectPredefinedFormat: (format) {
               setState(() => predefinedFormat = format);
@@ -362,7 +376,10 @@ class _ChangeFormatPopoverContentState
               cursor: SystemMouseCursors.click,
               child: GestureDetector(
                 behavior: HitTestBehavior.opaque,
-                onTap: () => widget.onRegenerate?.call(predefinedFormat),
+                onTap: () {
+                  widget.onRegenerate
+                      ?.call(predefinedFormat ?? const PredefinedFormat.auto());
+                },
                 child: SizedBox.square(
                   dimension: DesktopAIPromptSizes.predefinedFormatButtonHeight,
                   child: Center(
@@ -453,11 +470,11 @@ class _SaveToPageButtonState extends State<SaveToPageButton> {
     return FlowyTooltip(
       message: LocaleKeys.chat_addToPageButton.tr(),
       child: FlowyIconButton(
-        width: DesktopAIConvoSizes.actionBarIconSize,
+        width: DesktopAIChatSizes.messageActionBarIconSize,
         hoverColor: AFThemeExtension.of(context).lightGreyHover,
         radius: widget.isInHoverBar
-            ? DesktopAIConvoSizes.hoverActionBarIconRadius
-            : DesktopAIConvoSizes.actionBarIconRadius,
+            ? DesktopAIChatSizes.messageHoverActionBarIconRadius
+            : DesktopAIChatSizes.messageActionBarIconRadius,
         icon: FlowySvg(
           FlowySvgs.ai_add_to_page_s,
           color: Theme.of(context).hintColor,
@@ -467,7 +484,9 @@ class _SaveToPageButtonState extends State<SaveToPageButton> {
           final documentId = getOpenedDocumentId();
           if (documentId != null) {
             await onAddToExistingPage(context, documentId);
-            await forceReloadAndUpdateSelection(documentId);
+            await forceReload(documentId);
+            await Future.delayed(const Duration(milliseconds: 500));
+            await updateSelection(documentId);
           } else {
             widget.onOverrideVisibility?.call(true);
             if (spaceView != null) {
@@ -485,7 +504,7 @@ class _SaveToPageButtonState extends State<SaveToPageButton> {
   Widget buildPopover(BuildContext context) {
     return BlocProvider.value(
       value: context.read<ChatSettingsCubit>(),
-      child: _SaveToPagePopoverContent(
+      child: SaveToPagePopoverContent(
         onAddToNewPage: (parentViewId) {
           addMessageToNewPage(context, parentViewId);
           popoverController.close();
@@ -497,6 +516,8 @@ class _SaveToPageButtonState extends State<SaveToPageButton> {
           if (context.mounted) {
             openPageFromMessage(context, view);
           }
+          await Future.delayed(const Duration(milliseconds: 500));
+          await updateSelection(documentId);
         },
       ),
     );
@@ -506,9 +527,9 @@ class _SaveToPageButtonState extends State<SaveToPageButton> {
     BuildContext context,
     String documentId,
   ) async {
-    await ChatEditDocumentService.addMessageToPage(
+    await ChatEditDocumentService.addMessagesToPage(
       documentId,
-      widget.textMessage,
+      [widget.textMessage],
     );
     await Future.delayed(const Duration(milliseconds: 500));
     final view = await ViewBackendService.getView(documentId).toNullable();
@@ -536,43 +557,20 @@ class _SaveToPageButtonState extends State<SaveToPageButton> {
     }
   }
 
-  void showSaveMessageSuccessToast(BuildContext context, ViewPB? view) {
-    if (view == null) {
-      return;
-    }
-    showToastNotification(
-      context,
-      richMessage: TextSpan(
-        children: [
-          TextSpan(
-            text: LocaleKeys.chat_addToNewPageSuccessToast.tr(),
-            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: const Color(0xFFFFFFFF),
-                ),
-          ),
-          const TextSpan(
-            text: ' ',
-          ),
-          TextSpan(
-            text: view.nameOrDefault,
-            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: const Color(0xFFFFFFFF),
-                  fontWeight: FontWeight.w700,
-                ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Future<void> forceReloadAndUpdateSelection(String documentId) async {
+  Future<void> forceReload(String documentId) async {
     final bloc = DocumentBloc.findOpen(documentId);
     if (bloc == null) {
       return;
     }
     await bloc.forceReloadDocumentState();
-    await Future.delayed(const Duration(milliseconds: 500));
+  }
 
+  Future<void> updateSelection(String documentId) async {
+    final bloc = DocumentBloc.findOpen(documentId);
+    if (bloc == null) {
+      return;
+    }
+    await bloc.forceReloadDocumentState();
     final editorState = bloc.state.editorState;
     final lastNodePath = editorState?.getLastSelectable()?.$1.path;
     if (editorState == null || lastNodePath == null) {
@@ -594,8 +592,9 @@ class _SaveToPageButtonState extends State<SaveToPageButton> {
   }
 }
 
-class _SaveToPagePopoverContent extends StatelessWidget {
-  const _SaveToPagePopoverContent({
+class SaveToPagePopoverContent extends StatelessWidget {
+  const SaveToPagePopoverContent({
+    super.key,
     required this.onAddToNewPage,
     required this.onAddToExistingPage,
   });
