@@ -1,0 +1,1832 @@
+repo_name: alexravenna/AppFlowy
+report_id: fff70e11e2f6c3ea7d2db47d3ffb3faf
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-13T11:05:35+00:00'
+requested_by: richardshiue
+provider: github
+branch: main
+detected_tools_count: 138
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: Dart
+  description: A new web programming language with libraries, a virtual machine, and
+    tools
+  website_url: https://www.dartlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/flowy-database2/Cargo.toml
+  detection_source: frontend/rust-lib/flowy-database2/Cargo.toml
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-04-28 06:08:53.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/flowy-sqlite/migrations/2023-06-05-023648_user/down.sql
+  detection_source: frontend/rust-lib/flowy-sqlite/migrations/2023-06-05-023648_user/down.sql
+  last_updated_by: appflowy
+  last_updated_on: 2022-03-04 13:26:32.000000000 Z
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/flowy-user/Cargo.toml
+  detection_source: frontend/rust-lib/flowy-user/Cargo.toml
+  last_updated_by: appflowy
+  last_updated_on: 2021-06-29 08:52:29.000000000 Z
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/packages/flowy_infra_ui/example/android/app/build.gradle
+  detection_source: frontend/appflowy_flutter/packages/flowy_infra_ui/example/android/app/build.gradle
+  last_updated_by: Sean Riley Hawkins
+  last_updated_on: 2022-09-01 04:27:09.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-02-10 08:26:14.000000000 Z
+- name: Flutter
+  description: Cross-platform mobile framework from Google
+  website_url: https://flutter.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/packages/appflowy_backend/example/pubspec.yaml
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/example/pubspec.yaml
+  last_updated_by: appflowy
+  last_updated_on: 2022-08-31 03:15:35.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-01-17 08:27:17.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-01-17 08:27:17.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  version: 2.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/pubspec.yaml
+  last_updated_by: Yijing Huang
+  last_updated_on: 2023-04-04 04:48:56.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-07-27 12:40:18.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-07-27 12:40:18.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-02-10 08:26:14.000000000 Z
+- name: RxJS
+  description: The Reactive Extensions for JavaScript
+  website_url: http://reactivex.io/rxjs/
+  version: 7.8.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1796/984368.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-01-17 08:27:17.000000000 Z
+- name: Serde
+  description: Serialization framework for Rust
+  website_url: https://serde.rs
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/11028/no-img-open-source.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/event-integration/Cargo.toml
+  detection_source: frontend/rust-lib/event-integration/Cargo.toml
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-07-05 12:57:09.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-02-28 14:42:41.000000000 Z
+- name: Tokio
+  description: Runtime for writing reliable asynchronous applications with Rust
+  website_url: https://tokio.rs/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/12187/bC40df3r_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/event-integration/Cargo.toml
+  detection_source: frontend/rust-lib/event-integration/Cargo.toml
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-07-14 05:37:13.000000000 Z
+- name: react-beautiful-dnd
+  description: Beautiful and accessible drag and drop for lists with React (by Atlassian)
+  website_url: https://github.com/atlassian/react-beautiful-dnd
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9878/react-beautiful-dnd-logo.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-07-27 12:40:18.000000000 Z
+- name: PostgREST
+  description: Automatic REST API for Any Postgres Database
+  website_url: https://github.com/begriffs/postgrest
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/2296/postgrest.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/flowy-server/Cargo.toml
+  detection_source: frontend/rust-lib/flowy-server/Cargo.toml
+  last_updated_by: Zack
+  last_updated_on: 2023-09-17 09:14:34.000000000 Z
+- name: CMake
+  description: An open-source system that manages the build process
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/webdriver/selenium/package.json
+  detection_source: frontend/appflowy_tauri/webdriver/selenium/package.json
+  last_updated_by: Lucas.Xu
+  last_updated_on: 2023-03-11 05:07:31.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/event-integration/Cargo.toml
+  detection_source: frontend/rust-lib/event-integration/Cargo.toml
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-10-02 09:22:22.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-01-17 08:27:17.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/.github/workflows/commit_lint.yml
+  detection_source: ".github/workflows/commit_lint.yml"
+  last_updated_by: appflowy
+  last_updated_on: 2022-02-04 07:48:12.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/android/app/build.gradle
+  detection_source: frontend/appflowy_flutter/android/app/build.gradle
+  last_updated_by: appflowy
+  last_updated_on: 2021-06-19 15:41:19.000000000 Z
+- name: Hex
+  description: Package manager for the Erlang ecosystem
+  website_url: https://hex.pm/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/5210/6621265.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/flowy-server/Cargo.toml
+  detection_source: frontend/rust-lib/flowy-server/Cargo.toml
+  last_updated_by: Lucas.Xu
+  last_updated_on: 2023-05-21 10:53:59.000000000 Z
+- name: Hyper
+  description: On-Demand Container, Per-Second Billing
+  website_url: https://hyper.sh/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Containers as a Service
+  image_url: https://img.stackshare.io/service/3125/xSVaubUG_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/flowy-server/Cargo.toml
+  detection_source: frontend/rust-lib/flowy-server/Cargo.toml
+  last_updated_by: Lucas.Xu
+  last_updated_on: 2023-05-21 10:53:59.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-01-17 08:27:17.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 9.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/webdriver/selenium/package.json
+  detection_source: frontend/appflowy_tauri/webdriver/selenium/package.json
+  last_updated_by: Lucas.Xu
+  last_updated_on: 2023-03-11 05:07:31.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/flowy-user/Cargo.toml
+  detection_source: frontend/rust-lib/flowy-user/Cargo.toml
+  last_updated_by: appflowy
+  last_updated_on: 2021-06-29 08:52:29.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-07-12 03:54:50.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/flowy-database2/Cargo.toml
+  detection_source: frontend/rust-lib/flowy-database2/Cargo.toml
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-04-28 06:08:53.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/event-integration/Cargo.toml
+  detection_source: frontend/rust-lib/event-integration/Cargo.toml
+  last_updated_by: appflowy
+  last_updated_on: 2021-07-06 06:14:47.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-01-17 08:27:17.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/flowy-user/Cargo.toml
+  detection_source: frontend/rust-lib/flowy-user/Cargo.toml
+  last_updated_by: appflowy
+  last_updated_on: 2021-06-29 08:52:29.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/packages/flowy_infra_ui/example/android/app/build.gradle
+  detection_source: frontend/appflowy_flutter/packages/flowy_infra_ui/example/android/app/build.gradle
+  last_updated_by: Sean Riley Hawkins
+  last_updated_on: 2022-09-01 04:27:09.000000000 Z
+- name: Appflowy
+  description: Open-source Notion Alternative
+  website_url: https://www.appflowy.io/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Collaboration
+  sub_category: Project Management
+  image_url: https://img.stackshare.io/service/40201/default_427493d0a7707b7ba9268c18554723a887dacff3.jpg
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/scripts/docker-buildfiles/docker-compose.yml
+  detection_source: frontend/scripts/docker-buildfiles/docker-compose.yml
+  last_updated_by: JP
+  last_updated_on: 2023-04-11 02:26:04.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/ios/Podfile.lock
+  detection_source: frontend/appflowy_flutter/ios/Podfile.lock
+  last_updated_by: appflowy
+  last_updated_on: 2021-10-08 23:14:21.000000000 Z
+- name: OpenSSL
+  description: Full-featured toolkit for the Transport Layer Security and Secure Sockets
+    Layer protocols
+  website_url: https://www.openssl.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Security
+  image_url: https://img.stackshare.io/service/3091/preview.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/flowy-sqlite/Cargo.toml
+  detection_source: frontend/rust-lib/flowy-sqlite/Cargo.toml
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-03-03 12:38:31.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-05-10 07:53:30.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy
+  detection_source: Repo Metadata
+- name: Slate
+  description: Beautiful static documentation for your API, inspired by Stripe's and
+    Paypal's API docs
+  website_url: https://github.com/tripit/slate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Documentation as a Service & Tools
+  image_url: https://img.stackshare.io/service/4189/preview.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-06-02 02:05:38.000000000 Z
+- name: diesel
+  description: Diesel is a safe and extensible ORM and Query Builder
+  website_url: http://diesel.rs/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6660/Z-0QcjWT_normal.jpg
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/rust-lib/flowy-sqlite/Cargo.toml
+  detection_source: frontend/rust-lib/flowy-sqlite/Cargo.toml
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-08-03 01:14:52.000000000 Z
+- name: ffi
+  website_url: https://github.com/ffi/ffi
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2558/111990.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/packages/appflowy_backend/pubspec.yaml
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/pubspec.yaml
+  last_updated_by: appflowy
+  last_updated_on: 2021-06-19 15:41:19.000000000 Z
+- name: i18next
+  description: Internationalization-framework written in and for JavaScript
+  website_url: https://www.i18next.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Translation Service
+  image_url: https://img.stackshare.io/service/4747/default_82286a88bf01c80539ebd1d6dbea1b25df8af16d.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-07-12 03:54:50.000000000 Z
+- name: katex
+  website_url: https://github.com/Khan/KaTeX
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6858/15455.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-06-27 02:44:06.000000000 Z
+- name: archive
+  description: Provides encoders and decoders for various archive and compression
+    formats such as zip
+  package_url: https://pub.dartlang.org/archive
+  version: 3.3.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Lucas.Xu
+  last_updated_on: 2023-08-07 06:31:20.000000000 Z
+  vulnerabilities:
+  - name: Path traversal in Archive
+    cve_id: CVE-2023-39139
+    cve_url: https://github.com/advisories/GHSA-9v85-q87q-g4vg
+    detected_date: Nov 9
+    severity: high
+    first_patched: 3.3.8
+  - name: Filename spoofing in archive
+    cve_id: CVE-2023-39137
+    cve_url: https://github.com/advisories/GHSA-r285-q736-9v95
+    detected_date: Nov 9
+    severity: high
+    first_patched: 3.3.8
+- name: args
+  description: Library for defining parsers for parsing raw command-line arguments
+    into a set of options and values using GNU and POSIX style options
+  package_url: https://pub.dartlang.org/args
+  version: 2.4.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/flowy_svg/pubspec.yaml
+  last_updated_by: Alex Wallen
+  last_updated_on: 2023-08-14 20:34:01.000000000 Z
+- name: async
+  description: Utility functions and classes related to the 'dart:async' library
+  package_url: https://pub.dartlang.org/async
+  version: 2.11.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/flowy_infra_ui/pubspec.yaml
+  last_updated_by: appflowy
+  last_updated_on: 2022-08-31 03:21:15.000000000 Z
+- name: bloc
+  description: A predictable state management library that helps implement the BLoC
+  package_url: https://pub.dartlang.org/bloc
+  version: 8.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/flowy_infra/pubspec.yaml
+  last_updated_by: Alex Wallen
+  last_updated_on: 2023-07-03 14:07:11.000000000 Z
+- name: bloc_test
+  description: A testing library which makes it easy to test blocs
+  package_url: https://pub.dartlang.org/bloc_test
+  version: 9.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Lucas.Xu
+  last_updated_on: 2023-08-21 05:54:26.000000000 Z
+- name: build_runner
+  description: A build system for Dart code generation and modular compilation
+  package_url: https://pub.dartlang.org/build_runner
+  version: 2.4.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/pubspec.yaml
+  last_updated_by: appflowy
+  last_updated_on: 2022-02-23 14:17:47.000000000 Z
+- name: charcode
+  description: Constants for ASCII and common non-ASCII character codes
+  package_url: https://pub.dartlang.org/charcode
+  version: 1.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: appflowy
+  last_updated_on: 2022-08-31 01:28:08.000000000 Z
+- name: collection
+  description: Collections and utilities functions and classes related to collections
+  package_url: https://pub.dartlang.org/collection
+  version: 1.17.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Mathias Mogensen
+  last_updated_on: 2023-10-02 07:12:24.000000000 Z
+- name: cupertino_icons
+  description: Default icons asset for Cupertino widgets based on Apple styled icons
+  package_url: https://pub.dartlang.org/cupertino_icons
+  version: 1.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/packages/appflowy_backend/example/pubspec.yaml
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/example/pubspec.yaml
+  last_updated_by: appflowy
+  last_updated_on: 2021-06-19 15:41:19.000000000 Z
+- name: dartz
+  description: Functional Programming in Dart
+  package_url: https://pub.dartlang.org/dartz
+  version: 0.10.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/pubspec.yaml
+  last_updated_by: appflowy
+  last_updated_on: 2022-08-31 00:58:34.000000000 Z
+- name: dotted_border
+  description: A flutter package to let users easily add a dashed border around any
+    widget
+  package_url: https://pub.dartlang.org/dotted_border
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Alex Wallen
+  last_updated_on: 2023-07-03 14:07:11.000000000 Z
+- name: easy_localization
+  description: Easy and Fast internationalizing and localization your Flutter Apps
+  package_url: https://pub.dartlang.org/easy_localization
+  version: 3.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Mathias Mogensen
+  last_updated_on: 2023-10-02 07:12:24.000000000 Z
+- name: equatable
+  description: A Dart package that helps to implement value based equality without
+    needing to explicitly override == and hashCode
+  package_url: https://pub.dartlang.org/equatable
+  version: 2.0.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/flowy_infra_ui/pubspec.yaml
+  last_updated_by: Mathias Mogensen
+  last_updated_on: 2023-05-28 04:09:39.000000000 Z
+- name: expandable
+  description: A Flutter widget that can be expanded or collapsed by clicking on a
+    header or an icon
+  package_url: https://pub.dartlang.org/expandable
+  version: 5.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Mathias Mogensen
+  last_updated_on: 2023-05-28 04:09:39.000000000 Z
+- name: ffi
+  description: Utilities for working with Foreign Function Interface
+  package_url: https://pub.dartlang.org/ffi
+  version: 2.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/pubspec.yaml
+  last_updated_by: appflowy
+  last_updated_on: 2021-06-19 15:41:19.000000000 Z
+- name: file
+  description: A pluggable, mockable file system abstraction for Dart
+  package_url: https://pub.dartlang.org/file
+  version: 6.1.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/flowy_infra/pubspec.yaml
+  last_updated_by: Alex Wallen
+  last_updated_on: 2023-07-03 14:07:11.000000000 Z
+- name: fixnum
+  description: Library for 32- and 64-bit signed fixed-width integers with consistent
+    behavior between native and JS runtimes
+  package_url: https://pub.dartlang.org/fixnum
+  version: 1.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Mathias Mogensen
+  last_updated_on: 2023-05-28 04:09:39.000000000 Z
+- name: flutter
+  description: Visit flutter.io to get started
+  package_url: https://pub.dartlang.org/flutter
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/example/pubspec.yaml
+  last_updated_by: appflowy
+  last_updated_on: 2022-08-31 03:15:35.000000000 Z
+- name: flutter_bloc
+  description: Flutter Widgets that make it easy to implement the BLoC
+  package_url: https://pub.dartlang.org/flutter_bloc
+  version: 8.1.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Alex Wallen
+  last_updated_on: 2023-08-14 20:34:01.000000000 Z
+- name: flutter_colorpicker
+  description: HSV
+  package_url: https://pub.dartlang.org/flutter_colorpicker
+  version: 1.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Lucas.Xu
+  last_updated_on: 2023-08-23 03:43:18.000000000 Z
+- name: flutter_svg
+  description: An SVG rendering and widget library for Flutter
+  package_url: https://pub.dartlang.org/flutter_svg
+  version: 2.0.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/flowy_infra/pubspec.yaml
+  last_updated_by: Alex Wallen
+  last_updated_on: 2023-07-03 14:07:11.000000000 Z
+- name: get_it
+  description: Simple direct Service Locator that allows to decouple the interface
+    from a concrete implementation and to access the concrete implementation from
+    everywhere in your App"
+  package_url: https://pub.dartlang.org/get_it
+  version: 7.6.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Mathias Mogensen
+  last_updated_on: 2023-05-28 04:09:39.000000000 Z
+- name: google_fonts
+  description: A Flutter package to use fonts from fonts.google.com
+  package_url: https://pub.dartlang.org/google_fonts
+  version: 4.0.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Mathias Mogensen
+  last_updated_on: 2023-05-28 04:09:39.000000000 Z
+- name: highlight
+  description: Syntax highlighting for Dart with lots of languages and themes support
+  package_url: https://pub.dartlang.org/highlight
+  version: 0.7.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Yijing Huang
+  last_updated_on: 2023-04-19 22:56:02.000000000 Z
+- name: hive
+  description: Lightweight and buzzing-fast key-value database made for Flutter and
+    Dart
+  package_url: https://pub.dartlang.org/hive
+  version: 2.2.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Lucas.Xu
+  last_updated_on: 2023-08-07 06:31:20.000000000 Z
+- name: hive_flutter
+  description: Extension for Hive
+  package_url: https://pub.dartlang.org/hive_flutter
+  version: 1.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Alex Wallen
+  last_updated_on: 2023-08-14 20:34:01.000000000 Z
+- name: http
+  description: A composable
+  package_url: https://pub.dartlang.org/http
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Lucas.Xu
+  last_updated_on: 2023-09-26 07:30:10.000000000 Z
+- name: intl
+  description: Contains code to deal with internationalized/localized messages
+  package_url: https://pub.dartlang.org/intl
+  version: 0.18.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Mathias Mogensen
+  last_updated_on: 2023-05-28 04:09:39.000000000 Z
+- name: json_annotation
+  description: Classes and helper functions that support JSON code generation via
+    the `json_serializable` package
+  package_url: https://pub.dartlang.org/json_annotation
+  version: 4.8.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/pubspec.yaml
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-05-23 15:55:21.000000000 Z
+- name: json_serializable
+  description: Automatically generate code for converting to and from JSON by annotating
+    Dart classes
+  package_url: https://pub.dartlang.org/json_serializable
+  version: 6.7.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/pubspec.yaml
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-05-23 15:55:21.000000000 Z
+- name: loading_indicator
+  description: A collection loading animations written in pure dart
+  package_url: https://pub.dartlang.org/loading_indicator
+  version: 3.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/flowy_infra_ui/pubspec.yaml
+  last_updated_by: Mathias Mogensen
+  last_updated_on: 2023-05-28 04:09:39.000000000 Z
+- name: logger
+  description: Small
+  package_url: https://pub.dartlang.org/logger
+  version: 1.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/pubspec.yaml
+  last_updated_by: appflowy
+  last_updated_on: 2022-02-19 05:52:52.000000000 Z
+- name: nanoid
+  description: A tiny, secure, URL-friendly, unique string ID generator
+  package_url: https://pub.dartlang.org/nanoid
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Lucas.Xu
+  last_updated_on: 2023-05-16 06:58:24.000000000 Z
+- name: path
+  description: A string-based path manipulation library
+  package_url: https://pub.dartlang.org/path
+  version: 1.8.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/flowy_infra/pubspec.yaml
+  last_updated_by: Alex Wallen
+  last_updated_on: 2023-07-03 14:07:11.000000000 Z
+- name: percent_indicator
+  description: Library that allows you to display progress widgets based on percentage
+  package_url: https://pub.dartlang.org/percent_indicator
+  version: 4.2.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Lucas.Xu
+  last_updated_on: 2023-10-05 02:40:41.000000000 Z
+- name: plugin_platform_interface
+  description: Reusable base class for platform interfaces of Flutter federated plugins
+  package_url: https://pub.dartlang.org/plugin_platform_interface
+  version: 2.1.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/pubspec.yaml
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-01-08 04:10:53.000000000 Z
+- name: protobuf
+  description: Runtime library for protocol buffers support
+  package_url: https://pub.dartlang.org/protobuf
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/pubspec.yaml
+  last_updated_by: Yijing Huang
+  last_updated_on: 2023-04-04 04:48:56.000000000 Z
+- name: provider
+  description: A wrapper around InheritedWidget to make them easier to use and more
+    reusable
+  package_url: https://pub.dartlang.org/provider
+  version: 6.0.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/flowy_infra_ui/example/pubspec.yaml
+  last_updated_by: appflowy
+  last_updated_on: 2022-08-31 03:21:15.000000000 Z
+- name: reorderables
+  description: Reorderable table
+  package_url: https://pub.dartlang.org/reorderables
+  version: 0.6.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Alex Wallen
+  last_updated_on: 2023-07-03 14:07:11.000000000 Z
+- name: shared_preferences
+  description: Flutter plugin for reading and writing simple key-value pairs
+  package_url: https://pub.dartlang.org/shared_preferences
+  version: 2.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Mathias Mogensen
+  last_updated_on: 2023-05-28 04:09:39.000000000 Z
+- name: table_calendar
+  description: Highly customizable
+  package_url: https://pub.dartlang.org/table_calendar
+  version: 3.0.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Mathias Mogensen
+  last_updated_on: 2023-05-28 04:09:39.000000000 Z
+- name: url_launcher
+  description: Flutter plugin for launching a URL
+  package_url: https://pub.dartlang.org/url_launcher
+  version: 6.1.11
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/flowy_infra_ui/pubspec.yaml
+  last_updated_by: Alex Wallen
+  last_updated_on: 2023-06-21 02:03:39.000000000 Z
+- name: url_launcher_platform_interface
+  description: A common platform interface for the url_launcher plugin
+  package_url: https://pub.dartlang.org/url_launcher_platform_interface
+  version: 2.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/pubspec.yaml
+  last_updated_by: Mathias Mogensen
+  last_updated_on: 2023-10-02 07:12:24.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://pub.dartlang.org/uuid
+  version: 3.0.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/pubspec.lock
+  detection_source: frontend/appflowy_flutter/packages/flowy_infra/pubspec.yaml
+  last_updated_by: appflowy
+  last_updated_on: 2021-07-13 02:59:51.000000000 Z
+- name: "@emotion/styled"
+  description: Styled API for emotion
+  package_url: https://www.npmjs.com/@emotion/styled
+  version: 11.10.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 29.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.7.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: "@types/react-transition-group"
+  description: TypeScript definitions for react-transition-group
+  package_url: https://www.npmjs.com/@types/react-transition-group
+  version: 4.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17976/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.51.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.51.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 29.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: dayjs
+  description: 2KB immutable date time library alternative to Moment.js with the same
+    modern API
+  package_url: https://www.npmjs.com/dayjs
+  version: 1.11.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-07-12 03:54:50.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.32.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: fangwufeng-v
+  last_updated_on: 2023-09-11 02:27:56.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: fangwufeng-v
+  last_updated_on: 2023-09-11 02:27:56.000000000 Z
+- name: events
+  description: Node's event emitter for all engines
+  package_url: https://www.npmjs.com/events
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16435/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: qinluhe
+  last_updated_on: 2023-03-22 02:46:01.000000000 Z
+- name: google-protobuf
+  description: Protocol Buffers for JavaScript
+  package_url: https://www.npmjs.com/google-protobuf
+  version: 3.21.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17483/default_8c4651c288471a00b2fd6f2055b6de29cb9a049d.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-03-17 22:45:12.000000000 Z
+- name: jest-environment-jsdom
+  description: Delightful JavaScript Testing
+  package_url: https://www.npmjs.com/jest-environment-jsdom
+  version: 29.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18413/default_867ef7396016341fd213fa568d6de11cc98fefff.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: katex
+  description: Fast math typesetting for the web
+  package_url: https://www.npmjs.com/katex
+  version: 0.16.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18250/default_c6b51515d4a1dde78342d80e969e295cabf381ac.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-06-27 02:44:06.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-05-10 07:53:30.000000000 Z
+- name: quill
+  description: Your powerful, rich text editor
+  package_url: https://www.npmjs.com/quill
+  version: 1.3.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17002/default_192373fe2b3ded7bb442c39dbf0f34ca3e5bed5d.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-06-02 02:05:38.000000000 Z
+  vulnerabilities:
+  - name: Cross-site Scripting in quill
+    cve_id: CVE-2021-3163
+    cve_url: https://github.com/advisories/GHSA-4943-9vgg-gr5r
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 
+- name: react-color
+  description: A Collection of Color Pickers from Sketch
+  package_url: https://www.npmjs.com/react-color
+  version: 2.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16955/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-07-27 12:40:18.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-07-27 12:40:18.000000000 Z
+- name: react-error-boundary
+  description: Simple reusable React error boundary component
+  package_url: https://www.npmjs.com/react-error-boundary
+  version: 3.1.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-07-27 12:40:18.000000000 Z
+- name: react-i18next
+  description: Internationalization for react done right
+  package_url: https://www.npmjs.com/react-i18next
+  version: 12.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17777/default_65e03f67ad735337587d736d5fbc87b538eccdf7.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-07-27 12:40:18.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 8.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-07-27 12:40:18.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-07-27 12:40:18.000000000 Z
+- name: react-transition-group
+  description: A react component toolset for managing animations
+  package_url: https://www.npmjs.com/react-transition-group
+  version: 4.4.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: selenium-webdriver
+  description: The official WebDriver JavaScript bindings from the Selenium project
+  package_url: https://www.npmjs.com/selenium-webdriver
+  version: 4.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16708/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/webdriver/selenium/package.json
+  detection_source: frontend/appflowy_tauri/webdriver/selenium/package.json
+  last_updated_by: Lucas.Xu
+  last_updated_on: 2023-03-11 05:07:31.000000000 Z
+- name: slate-react
+  description: Tools for building completely customizable richtext editors with React
+  package_url: https://www.npmjs.com/slate-react
+  version: 0.94.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18566/default_27683a26a828c4de36f39c196ee155306eb1eaee.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-07-27 12:40:18.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Nathan.fooo
+  last_updated_on: 2023-02-28 14:42:41.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 29.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: ts-node-dev
+  description: Compiles your TS app and restarts when files are modified
+  package_url: https://www.npmjs.com/ts-node-dev
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17644/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: Kilu.He
+  last_updated_on: 2023-09-12 12:49:03.000000000 Z
+- name: utf8
+  description: A well-tested UTF-8 encoder/decoder written in JavaScript
+  package_url: https://www.npmjs.com/utf8
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17864/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: qinluhe
+  last_updated_on: 2023-03-25 09:38:58.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_tauri/package.json
+  detection_source: frontend/appflowy_tauri/package.json
+  last_updated_by: fangwufeng-v
+  last_updated_on: 2023-09-11 02:27:56.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 4.0.5
+- name: FlutterMacOS
+  description: A UI toolkit for beautiful and fast apps
+  package_url: https://cocoapods.org/pods/FlutterMacOS
+  version: 1.0.0
+  license: ''
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/package/cocoapods/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/packages/appflowy_backend/example/macos/Podfile.lock
+  detection_source: frontend/appflowy_flutter/packages/appflowy_backend/macos/appflowy_backend.podspec
+  last_updated_by: appflowy
+  last_updated_on: 2021-06-19 15:41:19.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk7
+  description: Kotlin Standard Library JDK 7 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/alexravenna/AppFlowy/blob/main/frontend/appflowy_flutter/android/app/build.gradle
+  detection_source: frontend/appflowy_flutter/android/app/build.gradle
+  last_updated_by: appflowy
+  last_updated_on: 2021-06-19 15:41:19.000000000 Z
